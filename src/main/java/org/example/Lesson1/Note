@@ -1,0 +1,20 @@
+Pattern 1. Three pointers
+Read Lesson 1.
+
+Google and write down:
+       1. an iterative algorithm to compute gcd.
+       2. an iterative algorithm to compute the n-th Fibonacci number.
+       3. an an iterative algorithm to reverse a singly linked list.
+Study and practice all three algorithms.
+----------------------------------------
+
+
+Q1. What is common to all three algorithms?
+    	•	Deterministic: Each algorithm consistently produces the same output for the same input.
+    	•	Iterative or Recursive: All can be implemented using either approach.
+    	•	Efficiency: Each is designed to minimize time and space complexity.
+
+Q2. What are their time complexities?
+        1.	GCD (Euclidean Algorithm): O(log(min(a, b)))
+    	2.	Nth Fibonacci Number: O(n)
+    	3.	Reversing a Singly Linked List: O(n)
