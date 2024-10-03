@@ -1,0 +1,15 @@
+DSA?
+=> Data Structure : the way to store and organize data.
+=> Algorithm : step by step procedure to solve a specific problem
+
+What's big O?
+    => tool to describe time/space complexity of algorithms
+    (is a powerful tool used in computer science to describe the time/space complexity of algorithms.)
+
+What's space complexity?
+    => total space taken by the algorithm.
+    => includes both auxiliary space(temporary space used by algorithm) and space used by input.
+
+    1.	Worst-case (Big-O): O(n)
+    2.	Best-case (Big-Omega, Ω): Ω(n)
+    3.	Average-case (Theta, Θ): Θ(n)

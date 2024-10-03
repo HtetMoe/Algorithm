@@ -16,8 +16,8 @@ public class MyStack {
         obj.push(3);
         obj.push(4);
         obj.push(5);
+        //added in order
 
-        //System.out.println(STR."Queue: \{obj.queue2}");
         System.out.println(STR."Stack: \{obj.queue1}");
         int param_2 = obj.pop();
 
@@ -44,9 +44,9 @@ public class MyStack {
     }
 
     public void push(int x) {
-        queue2.add(x); // add new elements into queue2
+        queue2.add(x); //always add new elements into queue2(empty queue)
 
-        //move to queue2
+        //move queue1 to queue2
         while (!queue1.isEmpty()) {
             queue2.add(queue1.poll());
         }

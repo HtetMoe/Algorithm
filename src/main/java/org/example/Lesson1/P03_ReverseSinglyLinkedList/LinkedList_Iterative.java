@@ -1,41 +1,41 @@
 package org.example.Lesson1.P03_ReverseSinglyLinkedList;
 
 public class LinkedList_Iterative {
-    Node head;
 
     public static void main(String[] args) {
-        LinkedList_Iterative list = new LinkedList_Iterative();
-        list.head      = new Node(1);
-        list.head.next = new Node(2);
-        list.head.next.next      = new Node(3);
-        list.head.next.next.next = new Node(4);
+        Node n = new Node(1);
+        n.next = new Node(2);
+        n.next.next = new Node(3);
+        n.next.next.next = new Node(4);
 
         System.out.println("Original list:");
-        list.printList();
+        printList(n);
 
         System.out.println("---");
 
-        list.reverse();
+        Node reversedN = reverse(n);
         System.out.println("Reversed list:");
-        list.printList();
+        printList(reversedN);
     }
 
-    public void reverse() {
+    public static Node reverse(Node n) {
         Node previous = null;
-        Node current = head;
+        Node current  = n;
 
         while (current != null) {
             Node next = current.next; // store next
             current.next = previous;  // reverse link
 
             previous = current; // move previous to current
-            current = next;     // move to next node
+            current = next;     // move current to next
         }
-        head = previous; // New head of the reversed list
+
+        n = previous; // new head of the reversed list
+        return n;
     }
 
-    public void printList() {
-        Node current = head;
+    public static void printList(Node n) {
+        Node current = n;
         while (current != null) {
             System.out.print(STR."\{current.v} ");
             current = current.next;

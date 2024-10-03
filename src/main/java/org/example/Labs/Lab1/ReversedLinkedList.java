@@ -9,33 +9,32 @@ package org.example.Labs.Lab1_ListStackQueueMap;
 public class ReversedLinkedList {
     public static void main(String[] args) {
         //create list
-        ListNode head = new ListNode(1);
-        head.next      = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next      = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
+        ListNode n = new ListNode(1);
+        n.next      = new ListNode(2);
+        n.next.next = new ListNode(3);
+        n.next.next.next      = new ListNode(4);
+        n.next.next.next.next = new ListNode(5);
 
         System.out.println("Original List: ");
-        printList(head);
+        printList(n);
 
         System.out.println("Reversed List: ");
-        printList(reverseList(head));
+        printList(reverseList(n));
 
     }
 
-    public static ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode n) {
         ListNode prev = null;
-        ListNode curr = head;
+        ListNode curr = n;
 
         //iterate through the loop
         while (curr != null) {
             ListNode next = curr.next; // temporarily store the next
-            curr.next = prev; // reverse the current node's pointer
+            curr.next = prev; // reverse
 
-            prev = curr; // move prev to the current
-            curr = next; // move curr to the next
+            prev = curr; // move prev to current
+            curr = next; // move curr to next
         }
-
         return prev; // at the end, prev will be new head of reversedList
     }
 

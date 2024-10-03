@@ -18,3 +18,13 @@ Q2. What are their time complexities?
         1.	GCD (Euclidean Algorithm): O(log(min(a, b)))
     	2.	Nth Fibonacci Number: O(n)
     	3.	Reversing a Singly Linked List: O(n)
+
+
+ sorting problem
+ n * n chess problem
+ halting problem
+
+ (Halting Problem) Given a Java program R (having a main method), when R is
+ executed, does R terminate normally? (No runtime exceptions, no infinite
+ loops.)
+ => There is no algorithm that can solve this problem for every possible Java program R.

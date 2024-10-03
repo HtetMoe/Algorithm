@@ -1,0 +1,32 @@
+Primitive Operations In This Course
+        ◼ Performing an arithmetic operation (+, *, etc)
+        ◼ Comparing two numbers
+        ◼ Assigning a value to a variable
+        ◼ Indexing into an array
+        ◼ Calling a method
+        ◼ Returning from a method
+        ◼ Following an object reference
+
+Algorithm arrayMax(A, n)
+---------------------------
+currentMax ← A[0]                 # 2 operations ( assigning and indexing) => 2
+for i ← 1 to n - 1 do             # 1 operation to initialize + (n comparisons, 1 extra comparison at the end) => 1 + n = n -1 + 1(extra) = n + 1(initialization)
+    if A[i] > currentMax then     # 2 operations per iteration (1 comparison, 1 condition check) => 2(n -1)
+        currentMax ← A[i]         # 2 operations (assignment if condition is true) => 2(n -1)
+{increment counter i}             # 2 operations for each loop iteration (increment and comparison) => 2(n -1)
+return currentMax                 # 1 operation =  1
+
+for(int i = 0; i <= 3; i++){
+}
+
+i = 1 => 1(initialization)
+i = 1 => 1(comparison), 1(incrementation)
+i = 2 => 1(comparison), 1(incrementation)
+i = 3 => 1(comparison), 1(incrementation)
+i = 4 => 1(comparison)
+
+how did you simplify
+= 7n - 2
+
+
+

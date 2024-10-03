@@ -9,7 +9,7 @@ public class GCD_Iterative {
     public static int gcd(int a, int b) {
         while (b != 0) {
             int temp = b;
-            b = a % b;
+            b = a % b; // update
             a = temp;
         }
         return a;

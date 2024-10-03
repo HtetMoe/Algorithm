@@ -1,0 +1,4 @@
+Summary
+    Algorithm 1 is straightforward but less efficient, with three passes through the array.
+    Algorithm 2 is more efficient, using a single loop with constant space.
+    Algorithm 3 is flexible, but it leverages additional data structures for efficiency.
