@@ -1,0 +1,10 @@
+
+Mention one algorithm you know for each of the time complexities listed
+
+    O(1)     : Accessing an element in an array by index.
+    O(log n) : Binary search in a sorted array.
+    O(n)     : Linear search through an array.
+    O(n log n) : Merge sort or quicksort in the average case.
+    O(n^2)   : Bubble sort or selection sort.
+    O(n^3)   : Matrix multiplication using the naive approach.
+    O(2^n)   : Recursive solution to the Fibonacci sequence without memoization.

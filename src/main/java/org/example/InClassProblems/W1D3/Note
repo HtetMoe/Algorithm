@@ -1,0 +1,25 @@
+Find lesser weight coin
+
+    => Input  : A bag contains n = 3^n coins (n >= 0)
+    => Output : a coin with lesser weight
+    Constraint = can use the scale at most 4 times
+
+  Algorithm
+  ----------
+          if(n == 1) print("found coin!)
+          else
+          (A, B, C) <-- Split(S, n)
+              -> Split fun will split n coins in the bag S into 3
+              -> and place them in 3 identical bags A,B,C
+              -> each has exactly n/3 coins
+
+          if(A == B) findCoin(C, n/3)
+          else if (A < B) findCoin(A, n/3)
+          else findCoin(B, n/3)
+
+  Analysis
+  --------
+  T(n) = T(n/3) + c
+  a = 1, b= 3, k = 0
+  a = b^k
+  By master theorem, Θ(n) = Θ(log n)
