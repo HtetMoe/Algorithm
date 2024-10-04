@@ -1,0 +1,9 @@
+Subset : The subset problem can be solved using different methods.
+(a) T or F:
+    Determine if there is a subset in the given set that adds up to a specific sum.
+
+(b) One solution:
+    Find one subset that adds up to the given sum.
+
+(c) All solutions:
+    Find all subsets that add up to the given sum.

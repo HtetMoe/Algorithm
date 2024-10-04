@@ -24,6 +24,4 @@ public class KnapSack {
         }
         return dp[W];  // Returning the maximum value of knapsack
     }
-
-    //rossan
 }

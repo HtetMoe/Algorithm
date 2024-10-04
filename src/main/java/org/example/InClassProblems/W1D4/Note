@@ -1,4 +1,10 @@
 Dynamic programming program
+- to solve problems with overlapping sub-problems by storing solutions to avoid repeated calculations.
+
     1. https://leetcode.com/problems/climbing-stairs/description/
     2. https://leetcode.com/problems/longest-common-subsequence/description/
     3. https://leetcode.com/problems/coin-change/description/
+
+    2. longest common subsequence => https://www.youtube.com/watch?v=Ua0GhsJSlWM
+    3. coin change => https://www.simplilearn.com/tutorials/data-structure-tutorial/coin-change-problem-with-dynamic-programming#introduction_to_coin_change_problem
+    3. min coin change => https://www.youtube.com/watch?v=Y0ZqKpToTic
