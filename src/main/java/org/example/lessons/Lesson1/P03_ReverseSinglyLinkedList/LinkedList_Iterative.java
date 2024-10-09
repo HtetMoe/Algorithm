@@ -10,7 +10,6 @@ public class LinkedList_Iterative {
 
         System.out.println("Original list:");
         printList(n);
-
         System.out.println("---");
 
         Node reversedN = reverse(n);
@@ -20,7 +19,7 @@ public class LinkedList_Iterative {
 
     public static Node reverse(Node n) {
         Node previous = null;
-        Node current  = n;
+        Node current = n;
 
         while (current != null) {
             Node next = current.next; // store next
@@ -29,9 +28,7 @@ public class LinkedList_Iterative {
             previous = current; // move previous to current
             current = next;     // move current to next
         }
-
-        n = previous; // new head of the reversed list
-        return n;
+        return previous; // new head of the reversed list
     }
 
     public static void printList(Node n) {

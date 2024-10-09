@@ -1,4 +1,5 @@
 package org.example.InClassProblems.W1D2;
+//  T(n) = O(n^2)
 
 public class ProblemA {
     public static void main(String[] args) {
@@ -21,7 +22,7 @@ public class ProblemA {
                 count++;  // Increment count of elements
             }
         }
-
+        //System.out.println(STR."count : \{count}");
         return (double) sum / count;
     }
 }

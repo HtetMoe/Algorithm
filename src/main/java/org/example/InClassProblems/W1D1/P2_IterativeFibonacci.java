@@ -1,6 +1,8 @@
 package org.example.InClassProblems.W1D1;
 
+//  T(n) = O(2^n)
 public class P2_IterativeFibonacci {
+
     public static void main(String[] args) {
         int n = 8;
         System.out.println(STR."result \{fibonacciIterative(n)}");

@@ -1,5 +1,5 @@
 package org.example.InClassProblems.W1D1;
-
+//  T(n) = O(log(min(a, b)))
 public class P1_IterativeGCD {
 
     public static void main(String[] args) {

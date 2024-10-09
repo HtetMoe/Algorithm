@@ -1,4 +1,4 @@
-package org.example.Labs.Lab1_ListStackQueueMap;
+package org.example.Labs.W1D1_Lab1;
 
 /*
     - https://leetcode.com/problems/valid-anagram/description/

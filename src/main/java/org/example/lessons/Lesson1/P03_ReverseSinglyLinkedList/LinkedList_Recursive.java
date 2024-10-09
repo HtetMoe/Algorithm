@@ -1,44 +1,36 @@
 package org.example.lessons.Lesson1.P03_ReverseSinglyLinkedList;
 
 public class LinkedList_Recursive {
-    Node head;
+
     public static void main(String[] args) {
-        LinkedList_Recursive list = new LinkedList_Recursive();
-        list.head      = new Node(1);
-        list.head.next = new Node(2);
-        list.head.next.next      = new Node(3);
-        list.head.next.next.next = new Node(4);
+        Node n      = new Node(1);
+        n.next      = new Node(2);
+        n.next.next = new Node(3);
+        n.next.next.next = new Node(4);
 
         System.out.println("Original list:");
-        list.printList();
-
+        printList(n);
         System.out.println("---");
 
-        list.reverse();
+        Node reversedNode = reverse(n);
         System.out.println("Reversed list:");
-        list.printList();
+        printList(reversedNode);
     }
 
-    public void reverse() {
-        head = reverseRecursively(head);
-    }
-    private Node reverseRecursively(Node current) {
+    public static Node reverse(Node n) {
+        Node current = n;
+
         // base case: if the list is empty/only contains one node
-        if (current == null || current.next == null) {
-            return current;
-        }
+        if(n == null || current.next == null) return n;
 
-        // Reverse the rest of the list
-        Node newHead = reverseRecursively(current.next);
-
-        // make the next node point to the current node
-        current.next.next = current;
-        current.next = null; // set the current node's next to null
+        Node newHead = reverse(current.next); // recursive call : reverse the rest of the list
+        current.next.next = n; // reverse
+        current.next = null;
 
         return newHead; // return the new head of the reversed list
     }
 
-    public void printList() {
+    public static void printList(Node head) {
         Node current = head;
         while (current != null) {
             System.out.print(STR."\{current.v} ");

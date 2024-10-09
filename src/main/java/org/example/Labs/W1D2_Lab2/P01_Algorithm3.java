@@ -17,7 +17,6 @@ public class P01_Algorithm3 {
                 topThree.pollFirst(); // remove the smallest element if size exceeds 3
             }
         }
-
         return topThree.first(); // 3rd largest element will be the smallest in topThree
     }
 }

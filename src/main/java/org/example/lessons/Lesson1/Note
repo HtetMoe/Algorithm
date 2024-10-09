@@ -1,14 +1,6 @@
 Pattern 1. Three pointers
 Read Lesson 1.
 
-Google and write down:
-       1. an iterative algorithm to compute gcd.
-       2. an iterative algorithm to compute the n-th Fibonacci number.
-       3. an an iterative algorithm to reverse a singly linked list.
-Study and practice all three algorithms.
-----------------------------------------
-
-
 Q1. What is common to all three algorithms?
     	•	Deterministic: Each algorithm consistently produces the same output for the same input.
     	•	Iterative or Recursive: All can be implemented using either approach.
@@ -19,10 +11,6 @@ Q2. What are their time complexities?
     	2.	Nth Fibonacci Number: O(n)
     	3.	Reversing a Singly Linked List: O(n)
 
-
- sorting problem
- n * n chess problem
- halting problem
 
  (Halting Problem) Given a Java program R (having a main method), when R is
  executed, does R terminate normally? (No runtime exceptions, no infinite

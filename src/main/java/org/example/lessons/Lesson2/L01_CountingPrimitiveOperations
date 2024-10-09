@@ -26,6 +26,7 @@ i = 3 => 1(comparison), 1(incrementation)
 i = 4 => 1(comparison)
 
 how did you simplify
+= 2 + (n + 1) +  2n - 2 + 2n - 2 + 2n - 2 + 1
 = 7n - 2
 
 
