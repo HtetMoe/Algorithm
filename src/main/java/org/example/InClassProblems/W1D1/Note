@@ -1,0 +1,23 @@
+P  = polynomial time
+    - P is a class of problems that can be solved in polynomial time.
+    - eg. Sorting, Finding GCD.
+
+NP = Nondeterministic Polynomial time
+    - a solution can be verified in polynomial time.
+    - In short, problems in NP are easy to verify but not necessarily easy to solve.
+    - eg. Subset Sum Problem
+
+EXP = exponential time
+    - EXP is a class of problems that require exponential time to solve,
+      meaning the time to solve them grows exponentially with the input size,
+      like O(2^n), O(3^n)
+      eg. Subset sum, n * n chess
+
+EXP-complete problems are the hardest problems in class EXP. They meet two conditions:
+    - Belong to EXP: They require exponential time to solve.
+    - Never in P: There’s no polynomial-time solution, meaning they will never be efficiently solvable.
+    - eg. n×n Chess.
+
+Halting problem
+    - a problem that cannot be solved by any algorithm
+    - undecidable problem

@@ -1,0 +1,10 @@
+
+1. No additional data structure allowed. What is the time complexity of your algorithm.
+    => In Place merging :
+    - To merge in place, we can start merging from the end of both arrays (reverse order),
+     which prevents overwriting elements in A that we still need.
+
+
+
+
+2. Additional data structure allowed. What is the time complexity of your algorithm.

@@ -1,0 +1,9 @@
+
+Dynamic Programming : (defined by recurrences with overlapping sub-problems)
+    - is a technique for solving problems with overlapping sub-problems by
+      storing solutions to avoid repeated calculations.
+
+Overlapping sub problems :
+    - DP solves each subproblem only once and stores the result for future
+      use (memoization).
+

@@ -1,0 +1,23 @@
+- practice W1D6 as well
+
+- reducing a problem into sub-problems
+=> tutorial :  https://www.youtube.com/watch?v=TzeBrDU-JaY
+
+Sorting
+---------
+1. selection sort : O(n^2)
+2. bubble sort    : O(n^2)
+3. insertion sort : O(n^2)
+
+4. Merge Sort     : O(n log n)
+
+Order --> 1 <= n <= log(n) <= nlog(n) <= n^2
+
+Apply Master Theorem
+-----------------------
+    a = 2, b = 2, f(n) = n
+    calculate n^ (log a based b) = n
+    f(n) == n^ (log a based b)
+    if equal => case 2, Time complexity : O(n log n)
+
+

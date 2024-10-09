@@ -1,0 +1,21 @@
+(a) Clearable Table Operations
+
+ operation        : add, add, add, add, clear, add, clear add, clear, add, add, add, clear, add, add, clear, add, add, clear, add, add, clear.
+ current elements :  1    2    3    4    0      1     0    1    0       1   2    3     0     1    2     0     1    2     0     1    2     0
+ actual cost      :  1    1    1    1    4      1     1    1    1       1   1    1     3     1    1     2     1    1     2     1    1     2
+
+ total actual cost             = 30
+ no of operations              = 22
+ Amortized cost per operation  = 30/22 = 1.36 <=2
+
+ (b) ArrayList with Size Doubling Strategy
+     given : A resize just happened from size 16 to size 32.
+
+     - old size   = 16, new size  = 32 (k)
+     - total cost = 16(copy) + 3k(resizing cost) = 16 + 96 = 112 units
+
+     - amortized cost per operation = 112/16 = 7
+
+
+
+

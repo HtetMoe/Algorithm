@@ -1,6 +1,7 @@
 package org.example.InClassProblems.W1D1;
 
 public class P1_IterativeGCD {
+
     public static void main(String[] args) {
         int a = 65, b = 5;
         System.out.println(STR."result \{findGcd(a, b)}");

@@ -1,0 +1,37 @@
+Quick Sort
+----------
+    partition = O(n)
+    2 recursive call
+
+    T(n) = 2(T/2) + O(n^d)
+    f(n) = O(n),  d = 1
+
+    log a base b    = 1
+
+    d == log a base b :  So, apply case 2, Time complexity :
+    T(n) = O( n log n)
+
+ - In worst case, due to unbalanced partition, T(n) = O(n^2)
+
+Quick Select
+------------
+    partition = O(n)
+    1 Recursive call(only recurse on one side of the pivot)
+
+    T(n) = (T/2) + O(n^d)
+    f(n) = O(n)
+
+    log a base b    = log 1 base 2 =  0, d = 1
+
+    d > log a base b, So, apply case 1, Time complexity :
+    T(n) = O(n)
+
+ - In worst case, due to unbalanced partition, T(n) = O(n^2)
+
+Quick Select Steps
+    1.	Use the median of three (first, middle, and last elements) to select the pivot.
+	2.	Partition the array based on the pivot.
+	3.	Recursively call QuickSelect on the left (L) or right (G) partition
+	    until the k-th smallest element is found.
+
+

@@ -1,0 +1,11 @@
+- study W1D5_Lab5 as well
+
+Purpose of Doubling and Halving: => https://www.youtube.com/watch?v=kx7dxyhNLv8&t=452s
+
+Doubling : resize by doubling, reduce cost of adding elements
+Halving  : removed unused space
+
+
+   ->  Doubling : Prevents frequent resizing by doubling capacity, which reduces overall cost
+                  when frequently adding elements.
+   ->  Halving  : Reduces unused space when most of the elements are removed, saving memory.

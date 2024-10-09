@@ -12,7 +12,7 @@ public class Fibonacci_Iterative {
         if (n <= 0) return 0;
         if (n == 1) return 1;
 
-        int[] fib = new int[n + 1];
+        int[] fib = new int[n + 1]; // (n - 1) + 2(0,1) = n + 1
         fib[0] = 0;
         fib[1] = 1;
 

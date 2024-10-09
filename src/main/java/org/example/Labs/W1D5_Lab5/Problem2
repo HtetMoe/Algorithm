@@ -1,0 +1,39 @@
+Data structure : ArrayList with size tripling strategy.
+
+(a) Actual Cost of add
+    - The actual cost of add is O(1) unless resizing is required, in which case it’s O(n).
+
+(b) Actual Cost of resize = 4K
+    - Every time a resize occurs, the array’s size triples.
+
+    - old size = 16, new size = 48 (k = 48, tripling)
+    - total cost = 16(copy) + 4k(resizing cost) = 16 + 192 = 208 units
+    - amortized cost per operation = 208/16 = 13 units
+
+    - This accounts for the tripling strategy’s higher costs compared to a doubling strategy,
+      due to the larger increase in size and associated resizing costs.
+
+
+(c) Average Cost using Traditional Worst-Case Analysis
+    - While amortized over time, the cost per operation = O(1),
+      in the worst-case scenario, the cost of adding a new element can grow to O(n),
+      making the average cost not truly constant.
+
+(d) Specific Scenario Analysis:
+Given:
+        Current size of the array = 9 (after a resize).
+        Size doubling strategy is used.
+
+         a. What is the Amortized Cost of add?
+                old size = 9
+                new size = 18 (k)
+                total cost = 9(copy) + 3k(resizing) = 9 + 54 = 63
+                amortized cost per operation = 63/9 = 7 unit
+
+         b. What is the Amortized_Cost(resize)? = 63
+             - total resize cost = 9(copy) + 3k(resizing) = 9 + 54 = 63
+
+         c. Through amortized cost analysis show if there is sequence of n operations (some add,
+            some resize) the average cost of an operation is constant time.
+            - avg cost = total cost/n = O(1)
+            - the average cost of each operation remains constant O(1)
