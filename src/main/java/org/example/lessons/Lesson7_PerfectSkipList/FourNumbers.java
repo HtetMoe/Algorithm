@@ -1,14 +1,16 @@
-package org.example.lessons.Lesson6_after_PerfectSkipList;
+package org.example.lessons.Lesson7_PerfectSkipList;
 
 public class FourNumbers {
     public static void main(String[] args) {
         int a = 5, b = 2, c = 10, d = 3;  // Test data.
 
         int low1, low2, high1, high2, middle1, middle2, lowest, highest;
+
         if (a < b) {
             low1 = a;
             high1 = b;
-        } else {
+        }
+        else {
             low1 = b;
             high1 = a;
         }
@@ -26,7 +28,8 @@ public class FourNumbers {
         if (low1 < low2) {
             lowest = low1;
             middle1 = low2;
-        } else {
+        }
+        else {
             lowest = low2;
             middle1 = low1;
         }
@@ -35,7 +38,8 @@ public class FourNumbers {
         if (high1 > high2) {
             highest = high1;
             middle2 = high2;
-        } else {
+        }
+        else {
             highest = high2;
             middle2 = high1;
         }

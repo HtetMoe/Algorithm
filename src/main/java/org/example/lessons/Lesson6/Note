@@ -9,9 +9,9 @@ Quick Sort
     log a base b    = 1
 
     d == log a base b :  So, apply case 2, Time complexity :
-    T(n) = O( n log n)
 
- - In worst case, due to unbalanced partition, T(n) = O(n^2)
+    => T(n) = O( n log n)
+    => In worst case, due to unbalanced partition, T(n) = O(n^2)
 
 Quick Select
 ------------

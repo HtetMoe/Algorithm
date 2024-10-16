@@ -20,6 +20,4 @@ Find lesser weight coin
   Analysis
   --------
   T(n) = T(n/3) + c
-  a = 1, b= 3, k = 0
-  a = b^k
   By master theorem, Θ(n) = Θ(log n)

@@ -12,8 +12,8 @@ import java.util.Arrays;
 public class KnapSack {
 
     public static void main(String[] args) {
-        int values[]  = {15, 12, 9, 16, 17};
-        int weights[] = {2, 5, 3, 4, 6};
+        int values[]  = {15, 9, 16, 12, 17};
+        int weights[] = {2, 3, 4, 5, 6};
         int W = 12; // capacity allowed
 
         System.out.print(STR."Max value => \{knapSack(weights, values, W)}");
@@ -30,12 +30,12 @@ public class KnapSack {
             }
 
             //print values
-//            for (int k = 1; k < target + 1; k++) {
-//                System.out.print(STR." \{dp[k]}");
-//            }
-//            System.out.println();
+            for (int k = 1; k < target + 1; k++) {
+                System.out.print(STR." \{dp[k]}");
+            }
+            System.out.println();
         }
-        System.out.println(STR."dp = \{Arrays.toString(dp)}");
+        //System.out.println(STR."dp = \{Arrays.toString(dp)}");
         return dp[target];  // Returning the maximum value of knapsack
     }
 }
