@@ -1,0 +1,49 @@
+LeetCode Problems
+CS435-2024-10A-10D-01
+Dears,
+
+Here is a list of LeetCode Problems. You may solve any one or more of these.
+Let us have some fun!
+
+List/Stack/Queue/Map
+https://leetcode.com/problems/implement-stack-using-queues/description/
+https://leetcode.com/problems/reverse-linked-list/description/
+https://leetcode.com/problems/valid-anagram/description/
+Priority Queue
+https://leetcode.com/problems/k-closest-points-to-origin/description/
+https://leetcode.com/problems/sort-characters-by-frequency/description/
+
+Graph (BFS and DFS)
+https://leetcode.com/problems/number-of-islands/description/
+https://leetcode.com/problems/max-area-of-island/description/
+https://leetcode.com/problems/word-search/description/
+Kruscal’s Algorithm
+https://leetcode.com/problems/redundant-connection/description/
+https://leetcode.com/problems/min-cost-to-connect-all-points/description/
+
+Dijkstra’s Algorithm
+https://leetcode.com/problems/network-delay-time/description/
+Directed Graph (Topological Sort)
+https://leetcode.com/problems/course-schedule/description/
+https://leetcode.com/problems/course-schedule-ii/description/
+
+Dynamic Programming
+https://leetcode.com/problems/climbing-stairs/description/
+https://leetcode.com/problems/longest-common-subsequence/description/
+https://leetcode.com/problems/coin-change/description/
+
+Trees
+https://leetcode.com/problems/balanced-binary-tree/
+https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/
+https://leetcode.com/problems/trim-a-binary-search-tree/description/
+
+Backtracking
+https://leetcode.com/problems/subsets/description/
+https://leetcode.com/problems/permutations/description/
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
+https://leetcode.com/problems/n-queens/description/
+
+QuickSelect
+https://leetcode.com/problems/kth-largest-element-in-an-array/description/
+Implement Stack using Queues - LeetCode
+Can you solve this real interview question? Implement Stack using Queues - Implement a last-in-first-out (LIFO) stack using only two queues. The implemented stack should support all the functions o...
